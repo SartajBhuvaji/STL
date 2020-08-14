@@ -33,7 +33,7 @@ int main(){
    
     myarray.at(3) = 2; //.at() throws out of bound exception
     
-    for (auto var : myarray) {
+    for (auto& var : myarray) {
         cout << var << " ";
     }
     myFunc(myarray);
